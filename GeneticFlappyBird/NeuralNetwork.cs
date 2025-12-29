@@ -42,7 +42,11 @@ namespace GeneticFlappyBird
         public double[] Compute(double[] inputs)
         {
             layers[0].Outputs = inputs;
-            for (int i = 0; i < layers.Length; i++)
+             for (int i = 0; i < inputs.Length; i++)
+            {
+                layers[0].Neurons[i].Output = inputs[i];
+            }
+            for (int i = 1; i < layers.Length; i++)
             {
                 layers[i].Compute();
             }

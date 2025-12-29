@@ -1,4 +1,4 @@
-﻿using NeuralNetworkGate;
+﻿using GeneticFlappyBird;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,9 +30,9 @@ namespace GeneticFlappyBird
         {
             for (int i = 0; i < dendrites.Length; i++)
             {
-                dendrites[i].Weight = random.NextDouble() * (max-min) - min;
+                dendrites[i].Weight = random.NextDouble() * (max-min) + min;
             }
-            bias = random.NextDouble() * (max-min) - min;
+            bias = random.NextDouble() * (max-min) + min;
         }
 
         public double Compute()
@@ -43,8 +43,8 @@ namespace GeneticFlappyBird
                 Input += dendrites[i].Compute();
             }
             Input += bias;
-
-            return activation.Function(Input);
+            Output = activation.Function(Input);
+            return Output;
         }
 
     }

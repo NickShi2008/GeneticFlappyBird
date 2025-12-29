@@ -20,18 +20,21 @@ namespace GeneticFlappyBird
 
         public RectangleF hitbox;
 
-        public Pipe(SpriteBatch sb, Vector2 location, Point size, float speed)
+        private Sprite pipe;
+        public Pipe(SpriteBatch sb, Vector2 location, Point size, float speed, Sprite pipe)
         {
             this.sb = sb;
             this.Location = location;
             this.Size = size;
             Speed = speed;
             hitbox = new RectangleF(Location, size);
+            this.pipe = pipe;
         }
 
-        public void Draw()
+        public void Draw(float rotation = 0)
         {
-            sb.DrawRectangle(hitbox, Color.Black);
+           // sb.DrawRectangle(hitbox, Color.Black);
+            pipe.Draw(sb, Location, rotation);
         }
 
         public void Move()
