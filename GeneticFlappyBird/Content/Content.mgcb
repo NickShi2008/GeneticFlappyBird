@@ -13,7 +13,7 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin ../../../flappy-bird-assets-master/flappy-bird-assets-master/sprites/yellowbird-downflap.png
+#begin yellowbird-downflap.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -23,9 +23,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../flappy-bird-assets-master/flappy-bird-assets-master/sprites/yellowbird-downflap.png;yellowbird-downflap.png
+/build:yellowbird-downflap.png
 
-#begin ../../../flappy-bird-assets-master/flappy-bird-assets-master/sprites/yellowbird-midflap.png
+#begin yellowbird-midflap.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -35,9 +35,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../flappy-bird-assets-master/flappy-bird-assets-master/sprites/yellowbird-midflap.png;yellowbird-midflap.png
+/build:yellowbird-midflap.png
 
-#begin ../../../flappy-bird-assets-master/flappy-bird-assets-master/sprites/yellowbird-upflap.png
+#begin yellowbird-upflap.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -47,7 +47,8 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:../../../flappy-bird-assets-master/flappy-bird-assets-master/sprites/yellowbird-upflap.png;yellowbird-upflap.png
+/build:yellowbird-upflap.png
+
 
 #begin 0.png
 /importer:TextureImporter
